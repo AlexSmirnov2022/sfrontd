@@ -1,0 +1,46 @@
+.relative {
+    position: relative;
+}
+ 
+.absolut {
+    position: absolute;
+}
+
+.red {
+    background-color: darkred;
+    width: 500px;
+    height: 300px;
+}
+
+.blue {
+    width: 300px;
+    height: 200px;
+    background-color: slategray;
+  
+}
+
+.green {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+tr:nth-of-type(2n) {
+    background-color: red;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: green;
+}
