@@ -23,6 +23,7 @@
     gap: 10px;
     border: 0cap;
     box-sizing: border-box;
+    margin-left: 547px;
 }
 .table2 {
     display: inline-flex;
@@ -30,7 +31,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
+    margin-left: 746; 
 }
 .table3 {
     display: inline-flex;
@@ -39,6 +41,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;   
+    margin-right: 566px;
 }
 .text {
     display: flex;
@@ -49,4 +52,80 @@
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
+    margin: 50%-45px;
+}
+
+.EdSpace2 {
+    width: 1555px;
+    height: 4822px;
+    background: #F3F6EF;
+}
+
+.EdSpace2__container {
+display: flex;
+}
+
+.EdSpace2__text {
+    width: 434px;
+    height: 310px;
+    color: #2F2A37;
+    /* Заголовок */
+    font-family: Avenir;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 115%; /* 62.1px */
+    margin-left: 149px;
+    padding-top: 50px;
+    margin: none;
+}
+
+.EdSpace2__text2 {
+    position: absolute;
+    width: 423px;
+    height: 48px;
+    color: var(--ed-space, #6E6C72);
+
+    /* Text */
+    font-family: Avenir;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    margin-left: 149px;
+    margin-top: 478px;
+    
+}
+
+.EdSpace2__Image {
+    position: absolute;
+    width: 721px;
+    height: 374.592px;
+    flex-shrink: 0;
+    margin-left: 720px;
+    margin-bottom: 123px;
+    margin-top: 123px;
+    
+    
+}
+.EdSpace2__Ellipse {
+    position: fixed;
+    width: 821px;
+    height: 821px;
+    flex-shrink: 0;
+    border-radius: 821px;
+    background: var(--accent, #6BFFCA);
+    filter: blur(120px);
+    margin-left: 1058px;
+    margin-top: 77px;
+}
+.EdSpace2__Button1 {
+    position: absolute;
+    width: 245px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--gradient, linear-gradient(129deg, #6BFFCA 0%, #00FF47 100%));
+    margin-left: 140px;
+    margin-top: 673px; 
 }
