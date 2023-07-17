@@ -103,29 +103,50 @@ display: flex;
     height: 374.592px;
     flex-shrink: 0;
     margin-left: 720px;
-    margin-bottom: 123px;
-    margin-top: 123px;
-    
+    margin-right: 95px;
+    margin-top: 150px;
     
 }
 .EdSpace2__Ellipse {
-    position: fixed;
-    width: 821px;
+    position: absolute;
     height: 821px;
     flex-shrink: 0;
     border-radius: 821px;
     background: var(--accent, #6BFFCA);
     filter: blur(120px);
-    margin-left: 1058px;
-    margin-top: 77px;
+        
+}
+.Image2 {
+    position: static;
+    height: 821px;
+    flex-shrink: 0;
+    border-radius: 821px;
+    background: var(--accent, #6BFFCA);
+    filter: blur(120px);
+    margin-left: 1200px;
+    margin-top: 10px;
 }
 .EdSpace2__Button1 {
     position: absolute;
-    width: 245px;
-    height: 55px;
+    width: 200px;
+    height: 26px;
     flex-shrink: 0;
     border-radius: 40px;
     background: var(--gradient, linear-gradient(129deg, #6BFFCA 0%, #00FF47 100%));
-    margin-left: 140px;
-    margin-top: 673px; 
+    padding: 20px;
+    border: 15px;
+    margin-left: 170px;
+    margin-top: 600px;
 }
+.form {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  outline: 0;
+  outline-offset: 0
+  }
+     
